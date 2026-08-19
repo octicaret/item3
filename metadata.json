@@ -1,0 +1,6 @@
+{
+  "name": "ItemSatış - Türkiye'nin En Gelişmiş Oyuncu Pazarı",
+  "description": "ItemSatış gaming marketplace clone with Valorant, PUBG Mobile, Discord Boost, Roblox, CS2 showcase listings and AI search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
