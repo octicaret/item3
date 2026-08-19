@@ -61,16 +61,16 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
 
         {/* Profile Centerpiece */}
         <div className="relative flex flex-col items-center mt-[35px] px-4">
-          <div className="w-28 h-28 rounded-3xl border-4 border-[#1e1f29] bg-white overflow-hidden shadow-lg z-10">
+          <div className="w-28 h-28 rounded-3xl border-4 border-[#1e1f29] bg-transparent overflow-hidden shadow-md z-10">
             <img 
-              src="https://cdn.itemsatis.com/avatar/global/minecraft-kadin.png" 
+              src="https://i.ibb.co/QjbzzqBM/hinduuu.png" 
               alt="Avatar" 
               className="w-full h-full object-cover"
             />
           </div>
           
           <div className="flex items-center gap-3 mt-3">
-            <span className="text-white font-bold text-base tracking-wide">ggNeonDragon2259</span>
+            <span className="text-white font-bold text-base tracking-wide">Norex1</span>
             <div className="flex rounded-md overflow-hidden text-xs font-bold shadow-sm">
               <div className="bg-indigo-600 px-2 py-0.5 text-white">LEVEL</div>
               <div className="bg-black px-2 py-0.5 text-white">2</div>
@@ -92,7 +92,7 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
         {/* Membership Date Badge */}
         <div className="mx-auto bg-[#1a1c24] border border-slate-800 text-slate-400 rounded-full px-4 py-1.5 text-xs inline-flex items-center gap-1.5 mb-5">
           <Calendar className="w-4 h-4" />
-          Üyelik Tarihi: 13 haziran 2026
+          Üyelik Tarihi: 17 mart 2024
         </div>
 
         {/* Stats Grid */}
@@ -155,12 +155,12 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
         <div className="grid grid-cols-2 gap-3 px-4 py-4 mt-2">
           {/* Card A (Left: Valorant Account) */}
           <div 
-            onClick={() => handleListingClick('Ucuza dolu hesap')}
+            onClick={() => handleListingClick('Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.')}
             className="bg-[#1b1f32] border border-[#2a2f4a] rounded-2xl overflow-hidden flex flex-col shadow-lg cursor-pointer transition-transform active:scale-95"
           >
             <div className="w-full aspect-[16/10] overflow-hidden bg-[#2a2f4a] relative">
               <img 
-                src="https://cdn.itemsatis.com/uploads/post_images/ucuza-dolu-hesap-11881297.png" 
+                src="https://cdn.itemsatis.com/uploads/post_images/dolu-saglam-hesap-mail-degisimli-dolu-skinli-19076286.png" 
                 alt="Valorant Hesap" 
                 className="w-full h-full object-cover" 
               />
@@ -175,9 +175,9 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
             <div className="p-3">
               <div className="text-[10px] font-bold tracking-wider text-[#79809c] mb-1.5 text-left">VALORANT</div>
               <div className="text-xs font-bold text-white uppercase leading-snug line-clamp-2 h-8 mb-3">
-                Ucuza dolu hesap
+                Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.
               </div>
-              <div className="text-sm font-black text-[#ffb800]">4.000,00 ₺</div>
+              <div className="text-sm font-black text-[#ffb800]">3.450,00 ₺</div>
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
                 <span className="w-3.5 h-3.5 bg-[#4c4962] text-white rounded flex items-center justify-center text-[9px]">
                   <Square className="w-2 h-2" />
                 </span>
-                <span>Üyelik Tarihi: <strong className="text-gray-300 font-normal">13 haziran 2026</strong></span>
+                <span>Üyelik Tarihi: <strong className="text-gray-300 font-normal">17 mart 2024</strong></span>
               </div>
             </div>
             
@@ -276,9 +276,9 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
               {/* Left Side: Avatar + Username + Edit Button */}
               <div className="flex items-start sm:items-center space-x-5">
                 {/* Profile Avatar Box */}
-                <div className="w-24 h-24 sm:w-28 sm:h-28 bg-[#f0f3f8] rounded-xl flex-shrink-0 border-2 border-[#232232] overflow-hidden">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 bg-transparent rounded-xl flex-shrink-0 border-2 border-[#232232] overflow-hidden shadow-md">
                   <img 
-                    src="https://cdn.itemsatis.com/avatar/global/minecraft-kadin.png" 
+                    src="https://i.ibb.co/QjbzzqBM/hinduuu.png" 
                     alt="Avatar" 
                     className="w-full h-full object-cover"
                   />
@@ -288,7 +288,7 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
                 <div className="flex flex-col space-y-2">
                   {/* Username Row */}
                   <div className="flex flex-wrap items-center gap-3">
-                    <h1 className="text-xl sm:text-2xl font-bold text-white tracking-wide">ggNeonDragon2259</h1>
+                    <h1 className="text-xl sm:text-2xl font-bold text-white tracking-wide">Norex1</h1>
                     
                     {/* Level Badge */}
                     <div className="flex items-center bg-[#524be3] text-white text-[11px] font-bold px-2 py-0.5 rounded-md space-x-1">
@@ -500,12 +500,12 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
           {/* Center Grid (Main Content) */}
           <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 items-start content-start">
             <article 
-              onClick={() => handleListingClick('Ucuza dolu hesap')}
+              onClick={() => handleListingClick('Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.')}
               className="flex flex-col bg-[#2a2936] rounded-2xl overflow-hidden shadow-lg border border-[#2a2936] transition-transform duration-200 hover:-translate-y-1 cursor-pointer"
             >
               <div className="w-full h-36 sm:h-40 overflow-hidden bg-[#2a2f4a] relative">
                 <img 
-                  src="https://cdn.itemsatis.com/uploads/post_images/ucuza-dolu-hesap-11881297.png" 
+                  src="https://cdn.itemsatis.com/uploads/post_images/dolu-saglam-hesap-mail-degisimli-dolu-skinli-19076286.png" 
                   alt="Valorant Hesap" 
                   className="w-full h-full object-cover" 
                 />
@@ -520,9 +520,9 @@ export const DevirPage: React.FC<DevirPageProps> = ({ onNavigateHome }) => {
               <div className="p-4 flex flex-col bg-[#2a2936]">
                 <div className="text-[10px] font-bold tracking-wider text-[#79809c] mb-1.5 text-left">VALORANT</div>
                 <div className="text-sm font-bold text-white uppercase leading-snug line-clamp-2 h-10 mb-2">
-                  Ucuza dolu hesap
+                  Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.
                 </div>
-                <span className="text-sm font-bold text-[#dfa841]">4.000,00 ₺</span>
+                <span className="text-sm font-bold text-[#dfa841]">3.450,00 ₺</span>
               </div>
             </article>
           </div>

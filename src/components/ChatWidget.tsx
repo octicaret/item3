@@ -67,7 +67,7 @@ export const ChatWidget: React.FC = () => {
       // Only trigger the automated sequence if there is no real conversation history
       if (historyLength <= 1) {
         // Dynamically get listing title: passed event detail, or local storage, or fallback to default profile listing
-        const defaultListing = localStorage.getItem('active_listing_title') || "Ucuza dolu hesap";
+        const defaultListing = localStorage.getItem('active_listing_title') || "Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.";
         const title = e.detail?.title || defaultListing;
 
         // Clear initial default message to cleanly start the 3-message sequence
@@ -214,7 +214,7 @@ export const ChatWidget: React.FC = () => {
         <button
           onClick={() => {
             if (messages.length <= 1) {
-              const defaultListing = localStorage.getItem('active_listing_title') || "Ucuza dolu hesap";
+              const defaultListing = localStorage.getItem('active_listing_title') || "Dolu Sağlam Hesap Mail Değişimli Pazarlık Olur.";
               window.dispatchEvent(new CustomEvent('openChat', { detail: { title: defaultListing } }));
             } else {
               setIsOpen(true);
