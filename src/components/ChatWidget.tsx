@@ -67,7 +67,7 @@ export const ChatWidget: React.FC = () => {
       // Only trigger the automated sequence if there is no real conversation history
       if (historyLength <= 1) {
         // Dynamically get listing title: passed event detail, or local storage, or fallback to default profile listing
-        const defaultListing = localStorage.getItem('active_listing_title') || "SATILIK DOLU VALORANT HESABI";
+        const defaultListing = localStorage.getItem('active_listing_title') || "???? 3'LÜ GAMING HESAP PAKETİ | VALORANT+ LOL +TFT";
         const title = e.detail?.title || defaultListing;
 
         // Clear initial default message to cleanly start the 3-message sequence
@@ -214,15 +214,15 @@ export const ChatWidget: React.FC = () => {
         <button
           onClick={() => {
             if (messages.length <= 1) {
-              const defaultListing = localStorage.getItem('active_listing_title') || "SATILIK DOLU VALORANT HESABI";
+              const defaultListing = localStorage.getItem('active_listing_title') || "???? 3'LÜ GAMING HESAP PAKETİ | VALORANT+ LOL +TFT";
               window.dispatchEvent(new CustomEvent('openChat', { detail: { title: defaultListing } }));
             } else {
               setIsOpen(true);
             }
           }}
-          className="fixed z-[99] bottom-24 right-4 md:bottom-[162px] md:right-10 w-14 h-14 bg-[#00e676] text-[#111017] flex items-center justify-center rounded-full hover:bg-[#00c853] transition-all duration-300 animate-[pulseScaleChat_2s_ease-in-out_infinite]"
+          className="fixed z-[99] bottom-24 right-4 md:bottom-[162px] md:right-10 w-14 h-14 bg-transparent flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300 animate-[pulseScaleChat_2s_ease-in-out_infinite] p-0 overflow-hidden shadow-lg border-none"
         >
-          <MessageSquare className="w-6 h-6" fill="currentColor" />
+          <img src="https://i.ibb.co/7dkXk2XJ/Gemini-Generated-Image-v693pbv693pbv693.jpg" className="w-full h-full object-cover rounded-full" alt="Canlı Destek" />
         </button>
       </>
     );
