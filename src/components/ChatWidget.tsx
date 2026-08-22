@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageSquare, X, Send, User } from 'lucide-react';
-import chatIcon from '../assets/chat-icon-small.jpg';
+import { chatIconBase64 } from '../assets/chat-icon-base64';
 
 interface ChatMessage {
   text: string;
@@ -223,7 +223,7 @@ export const ChatWidget: React.FC = () => {
           }}
           className="fixed z-[99] bottom-24 right-4 md:bottom-[162px] md:right-10 w-14 h-14 bg-transparent flex items-center justify-center rounded-full hover:scale-105 transition-all duration-300 animate-[pulseScaleChat_2s_ease-in-out_infinite] p-0 overflow-hidden shadow-lg border-none"
         >
-          <img src={chatIcon} className="w-full h-full object-cover rounded-full" alt="Canlı Destek" />
+          <img src={chatIconBase64} className="w-full h-full object-cover rounded-full" alt="Canlı Destek" />
         </button>
       </>
     );
@@ -235,7 +235,7 @@ export const ChatWidget: React.FC = () => {
       <div className="bg-[#00e676] px-4 py-3 flex items-center justify-between text-[#111017]">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden shrink-0">
-            <img src={chatIcon} alt="Agent Avatar" className="w-full h-full object-cover" />
+            <img src={chatIconBase64} alt="Agent Avatar" className="w-full h-full object-cover" />
           </div>
           <div>
             <h3 className="font-bold text-sm">Canlı Destek</h3>
