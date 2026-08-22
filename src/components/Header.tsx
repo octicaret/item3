@@ -96,7 +96,7 @@ export const Header: React.FC<HeaderProps> = ({
                 aria-label="User Profile"
                 className="w-8 h-8 rounded-full bg-transparent border border-white/20 overflow-hidden flex items-center justify-center text-gray-200 active:scale-95 transition-all shadow-md"
               >
-                <img src="https://cdn.itemsatis.com/avatar/global/Avatar37.png" className="w-full h-full object-cover" alt="Profilim" />
+                <img src="https://cdn.itemsatis.com/avatar/global/astronot-Kadin.png" className="w-full h-full object-cover" alt="Profilim" />
               </button>
             </div>
           </div>
@@ -258,7 +258,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="flex items-center justify-center text-gray-400 hover:text-white transition-all hover:scale-110"
             >
               <div className="w-7 h-7 rounded-full overflow-hidden border border-white/20 shadow-md bg-transparent">
-                <img src="https://cdn.itemsatis.com/avatar/global/Avatar37.png" className="w-full h-full object-cover" alt="Profilim" />
+                <img src="https://cdn.itemsatis.com/avatar/global/astronot-Kadin.png" className="w-full h-full object-cover" alt="Profilim" />
               </div>
             </button>
 
@@ -289,7 +289,7 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={onProfileClick}
               className="w-full bg-[#1c2033] text-white font-semibold py-3 rounded-xl border border-white/10 flex items-center justify-center space-x-2"
             >
-              <img src="https://cdn.itemsatis.com/avatar/global/Avatar37.png" className="w-5 h-5 rounded-full object-cover bg-transparent shadow-md" alt="Profilim" />
+              <img src="https://cdn.itemsatis.com/avatar/global/astronot-Kadin.png" className="w-5 h-5 rounded-full object-cover bg-transparent shadow-md" alt="Profilim" />
               <span>Profilim</span>
             </button>
 
