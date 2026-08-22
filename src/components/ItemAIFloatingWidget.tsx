@@ -70,7 +70,7 @@ export const ItemAIFloatingWidget: React.FC = () => {
   };
 
   return (
-    <div className="fixed bottom-24 md:bottom-5 left-4 md:left-auto md:right-5 z-50 flex flex-col items-start md:items-end space-y-3">
+    <div className="fixed bottom-24 md:bottom-[70px] left-4 md:left-auto md:right-5 z-50 flex flex-col items-start md:items-end space-y-3">
       {/* AI Assistant Chat Modal */}
       {isOpen && (
         <div className="w-[320px] sm:w-[380px] h-[460px] bg-[#1c2033] border border-white/10 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-4">
